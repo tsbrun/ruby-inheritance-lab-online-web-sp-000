@@ -4,6 +4,8 @@ class Teacher < User
 
   def teach
     KNOWLEDGE[rand(0..KNOWLEDGE.length)]
+    # alternatively, you could have used #sample
+    # returns a random element ( or n random elements ) from an array
   end
 
 
